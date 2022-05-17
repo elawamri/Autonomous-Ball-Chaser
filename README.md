@@ -7,7 +7,7 @@ This project is a simple example of how publishers and subscribers in ROS work, 
 ### 1. drive_bot
 This node is responsible of publishing messages to the wheels joint angles.
 ### 2. process_images
-This client node will subscribe to the robot’s camera images and analyze them to determine the position of the white ball. Once the ball position is determined, the client node will request a service from the drive_bot server node to drive the robot toward the ball. The robot can drive either left, right or forward, depending on the robot position inside the image
+This client node will subscribe to the robot’s camera images and analyze them to determine the position of the white ball. Once the ball position is determined, the client node will request a service from the ```drive_bot``` server node to drive the robot toward the ball. The robot can drive either left, right or forward, depending on the robot position inside the image
 ## Robot's Test.
 First, place files in your catkin workspace.
 ### 1. Launch the robot inside your world
