@@ -1,6 +1,7 @@
 # Autonomous-Ball-Chaser
-#### Introduction
+### Introduction
 This project is a simple example of how publishers and subscribers in ROS work, and the main mission of our autonomous vehicle here is to chase the white ball wherever it goes.
+![Screenshot 2022-05-17 18 08 31](https://user-images.githubusercontent.com/105011124/168858230-52b0772d-cbc3-412e-b4ba-1d02a1462961.png)
 
 the project consists of two main nodes: drive_bot Node and ball_chaser Node
 drive_bot : this node is responsible of publishing messages to the wheels joint angles.
